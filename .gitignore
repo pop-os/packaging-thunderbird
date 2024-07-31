@@ -1,0 +1,6 @@
+vendor
+debian/*.substvars
+debian/.debhelper
+debian/debhelper-*
+debian/files
+debian/thunderbird
