@@ -16,3 +16,369 @@ Package: thunderbird
 Architecture: amd64
 Depends: ${shlibs:Depends}
 Description: Mozilla Thunderbird
+
+Package: thunderbird-locale-af
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-af-base
+Description: Mozilla Firefox language pack for af
+
+Package: thunderbird-locale-ar
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-ar-base
+Description: Mozilla Firefox language pack for ar
+
+Package: thunderbird-locale-ast
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-ast-base
+Description: Mozilla Firefox language pack for ast
+
+Package: thunderbird-locale-be
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-be-base
+Description: Mozilla Firefox language pack for be
+
+Package: thunderbird-locale-bg
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-bg-base
+Description: Mozilla Firefox language pack for bg
+
+Package: thunderbird-locale-br
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-br-base
+Description: Mozilla Firefox language pack for br
+
+Package: thunderbird-locale-ca
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-ca-base
+Description: Mozilla Firefox language pack for ca
+
+Package: thunderbird-locale-cak
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-cak-base
+Description: Mozilla Firefox language pack for cak
+
+Package: thunderbird-locale-cs
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-cs-base
+Description: Mozilla Firefox language pack for cs
+
+Package: thunderbird-locale-cy
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-cy-base
+Description: Mozilla Firefox language pack for cy
+
+Package: thunderbird-locale-da
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-da-base
+Description: Mozilla Firefox language pack for da
+
+Package: thunderbird-locale-de
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-de-base
+Description: Mozilla Firefox language pack for de
+
+Package: thunderbird-locale-dsb
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-dsb-base
+Description: Mozilla Firefox language pack for dsb
+
+Package: thunderbird-locale-el
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-el-base
+Description: Mozilla Firefox language pack for el
+
+Package: thunderbird-locale-en
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-en-base
+Description: Mozilla Firefox language pack for en
+
+Package: thunderbird-locale-es
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-es-base
+Description: Mozilla Firefox language pack for es
+
+Package: thunderbird-locale-et
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-et-base
+Description: Mozilla Firefox language pack for et
+
+Package: thunderbird-locale-eu
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-eu-base
+Description: Mozilla Firefox language pack for eu
+
+Package: thunderbird-locale-fi
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-fi-base
+Description: Mozilla Firefox language pack for fi
+
+Package: thunderbird-locale-fr
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-fr-base
+Description: Mozilla Firefox language pack for fr
+
+Package: thunderbird-locale-fy
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-fy-base
+Description: Mozilla Firefox language pack for fy
+
+Package: thunderbird-locale-ga
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-ga-base
+Description: Mozilla Firefox language pack for ga
+
+Package: thunderbird-locale-gd
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-gd-base
+Description: Mozilla Firefox language pack for gd
+
+Package: thunderbird-locale-gl
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-gl-base
+Description: Mozilla Firefox language pack for gl
+
+Package: thunderbird-locale-he
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-he-base
+Description: Mozilla Firefox language pack for he
+
+Package: thunderbird-locale-hr
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-hr-base
+Description: Mozilla Firefox language pack for hr
+
+Package: thunderbird-locale-hsb
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-hsb-base
+Description: Mozilla Firefox language pack for hsb
+
+Package: thunderbird-locale-hu
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-hu-base
+Description: Mozilla Firefox language pack for hu
+
+Package: thunderbird-locale-hy
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-hy-base
+Description: Mozilla Firefox language pack for hy
+
+Package: thunderbird-locale-id
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-id-base
+Description: Mozilla Firefox language pack for id
+
+Package: thunderbird-locale-is
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-is-base
+Description: Mozilla Firefox language pack for is
+
+Package: thunderbird-locale-it
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-it-base
+Description: Mozilla Firefox language pack for it
+
+Package: thunderbird-locale-ja
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-ja-base
+Description: Mozilla Firefox language pack for ja
+
+Package: thunderbird-locale-ka
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-ka-base
+Description: Mozilla Firefox language pack for ka
+
+Package: thunderbird-locale-kab
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-kab-base
+Description: Mozilla Firefox language pack for kab
+
+Package: thunderbird-locale-kk
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-kk-base
+Description: Mozilla Firefox language pack for kk
+
+Package: thunderbird-locale-ko
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-ko-base
+Description: Mozilla Firefox language pack for ko
+
+Package: thunderbird-locale-lt
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-lt-base
+Description: Mozilla Firefox language pack for lt
+
+Package: thunderbird-locale-lv
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-lv-base
+Description: Mozilla Firefox language pack for lv
+
+Package: thunderbird-locale-ms
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-ms-base
+Description: Mozilla Firefox language pack for ms
+
+Package: thunderbird-locale-nb
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-nb-base
+Description: Mozilla Firefox language pack for nb
+
+Package: thunderbird-locale-nl
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-nl-base
+Description: Mozilla Firefox language pack for nl
+
+Package: thunderbird-locale-nn
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-nn-base
+Description: Mozilla Firefox language pack for nn
+
+Package: thunderbird-locale-pa
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-pa-base
+Description: Mozilla Firefox language pack for pa
+
+Package: thunderbird-locale-pl
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-pl-base
+Description: Mozilla Firefox language pack for pl
+
+Package: thunderbird-locale-pt
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-pt-base
+Description: Mozilla Firefox language pack for pt
+
+Package: thunderbird-locale-rm
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-rm-base
+Description: Mozilla Firefox language pack for rm
+
+Package: thunderbird-locale-ro
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-ro-base
+Description: Mozilla Firefox language pack for ro
+
+Package: thunderbird-locale-ru
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-ru-base
+Description: Mozilla Firefox language pack for ru
+
+Package: thunderbird-locale-sk
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-sk-base
+Description: Mozilla Firefox language pack for sk
+
+Package: thunderbird-locale-sl
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-sl-base
+Description: Mozilla Firefox language pack for sl
+
+Package: thunderbird-locale-sq
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-sq-base
+Description: Mozilla Firefox language pack for sq
+
+Package: thunderbird-locale-sr
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-sr-base
+Description: Mozilla Firefox language pack for sr
+
+Package: thunderbird-locale-sv
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-sv-base
+Description: Mozilla Firefox language pack for sv
+
+Package: thunderbird-locale-th
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-th-base
+Description: Mozilla Firefox language pack for th
+
+Package: thunderbird-locale-tr
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-tr-base
+Description: Mozilla Firefox language pack for tr
+
+Package: thunderbird-locale-uk
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-uk-base
+Description: Mozilla Firefox language pack for uk
+
+Package: thunderbird-locale-uz
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-uz-base
+Description: Mozilla Firefox language pack for uz
+
+Package: thunderbird-locale-vi
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-vi-base
+Description: Mozilla Firefox language pack for vi
+
+Package: thunderbird-locale-zh-hans
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-zh-hans-base
+Description: Mozilla Firefox language pack for zh-hans
+
+Package: thunderbird-locale-zh-hant
+Architecture: amd64
+Depends: thunderbird (= ${binary:Version})
+Replaces: language-pack-zh-hant-base
+Description: Mozilla Firefox language pack for zh-hant
