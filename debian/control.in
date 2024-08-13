@@ -16,3 +16,25 @@ Package: thunderbird
 Architecture: amd64
 Depends: ${shlibs:Depends}
 Description: Mozilla Thunderbird
+
+Package: thunderbird-gnome-support
+Architecture: any
+Section: gnome
+Depends: ${shlibs:Depends},
+	thunderbird (= ${binary:Version}),
+	${misc:Depends},
+	${unity:Depends},
+	libnotify4 | libnotify1
+Conflicts: ${app:Conflicts}
+Provides: ${app:Provides}
+Description: Email, RSS and newsgroup client - GNOME support
+ Thunderbird is a full-featured email, RSS and newsgroup client that makes
+ emailing safer, faster and easier than ever before. It supports different mail
+ accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-
+ click address book, tabbed interface, an integrated learning spam filter,
+ advanced search and indexing capabilities, and offers easy organization
+ of mails with tagging and virtual folders. It also features unrivalled
+ extensibility.
+ .
+ This package depends on the GNOME libraries which allow Thunderbird to take
+ advantage of technologies such as GConf, GIO and libnotify
