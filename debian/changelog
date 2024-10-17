@@ -1,3 +1,9 @@
+thunderbird (2:128.3.2esr) jammy; urgency=medium
+
+  * https://www.mozilla.org/en-US/thunderbird/128.3.2esr/releasenotes/
+
+ -- Michael Aaron Murphy <michael@mmurphy.dev>  Thu, 17 Oct 2024 17:18:41 +0200
+
 thunderbird (2:128.0.1esr) jammy; urgency=medium
 
   * https://www.mozilla.org/en-US/thunderbird/128.0.1esr/releasenotes/
