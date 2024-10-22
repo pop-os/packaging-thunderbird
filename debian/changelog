@@ -1,3 +1,9 @@
+thunderbird (2:128.3.3esr) jammy; urgency=medium
+
+  * https://www.mozilla.org/en-US/thunderbird/128.3.3esr/releasenotes/
+
+ -- Levi Portenier <levi@system76.com>  Tue, 22 Oct 2024 11:32:26 -0600
+
 thunderbird (2:128.3.2esr) jammy; urgency=medium
 
   * https://www.mozilla.org/en-US/thunderbird/128.3.2esr/releasenotes/
