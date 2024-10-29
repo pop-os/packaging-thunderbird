@@ -1,3 +1,10 @@
+thunderbird (2:128.4.0esr) jammy; urgency=medium
+
+  * https://www.mozilla.org/en-US/thunderbird/128.4.0esr/releasenotes/
+  * https://hg.mozilla.org/releases/comm-esr128/log/6c9a5fd8ba8d5956ce0cca04af0bb8f14c4c0f03
+
+ -- Levi Portenier <levi@system76.com>  Tue, 29 Oct 2024 10:27:47 -0600
+
 thunderbird (2:128.3.3esr) jammy; urgency=medium
 
   * https://www.mozilla.org/en-US/thunderbird/128.3.3esr/releasenotes/
