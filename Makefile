@@ -1,7 +1,7 @@
 # Automatic variables
-VERSION = "$(shell grep -oP '(?<=thunderbird-).*(?=.tar.bz)' SHA256SUMS | head -1)"
+VERSION = "$(shell grep -oP '(?<=thunderbird-).*(?=.tar.xz)' SHA256SUMS | head -1)"
 ARCH    = "$(shell uname -m)"
-TARBALL = "thunderbird-$(VERSION).tar.bz2"
+TARBALL = "thunderbird-$(VERSION).tar.xz"
 URL     = "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/$(VERSION)/linux-$(ARCH)"
 all:
 	true
@@ -32,7 +32,7 @@ vendor:
 	curl \
 		-o "$@.partial/$(TARBALL)" \
 		"$(URL)/en-US/$(TARBALL)"
-	test "$$(cat SHA256SUMS | grep linux-x86_64/en-US/thunderbird-$(VERSION).tar.bz | cut -d ' ' -f1)" "=" "$$(sha256sum $@.partial/$(TARBALL) | cut -d' ' -f1)"
+	test "$$(cat SHA256SUMS | grep linux-x86_64/en-US/thunderbird-$(VERSION).tar.xz | cut -d ' ' -f1)" "=" "$$(sha256sum $@.partial/$(TARBALL) | cut -d' ' -f1)"
 
 	ls -1 langpacks | while read pkg_lang; do \
 		cat "langpacks/$${pkg_lang}" | while read xpi_lang; do \
