@@ -1,3 +1,10 @@
+thunderbird (2:140.13.0esr) jammy; urgency=medium
+
+  * https://www.mozilla.org/en-US/thunderbird/140.13.0esr/releasenotes/
+  * https://hg-edge.mozilla.org/releases/comm-esr140/log/faf78db7dfb184002adc6b859c8ad395ff216239
+
+ -- Levi Portenier <levi@system76.com>  Wed, 22 Jul 2026 09:15:58 -0600
+
 thunderbird (2:140.12.1esr) jammy; urgency=medium
 
   * https://www.mozilla.org/en-US/thunderbird/140.12.1esr/releasenotes/
